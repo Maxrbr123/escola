@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitor de QR Code - Registro de Presenc?a</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsQR/1.4.0/jsQR.min.js"></script>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; }
+        canvas { display: none; }
+        video { width: 100%; max-width: 400px; border: 2px solid black; }
+    </style>
+</head>
+<body>
+    <h2>Leitor de QR Code - Registro de Presenc?a</h2>
+    <video id="video" autoplay playsinline></video>
+    <canvas id="canvas"></canvas>
+    <p id="status">Aguardando leitura...</p>
+    
+    <script>
+        const video = document.getElement
